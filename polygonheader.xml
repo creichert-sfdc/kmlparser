@@ -1,0 +1,58 @@
+kh = '''<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Style id="77007Style"> 
+<LineStyle> 
+<width>1</width> 
+</LineStyle> 
+<PolyStyle> 
+<color>8033CAC0</color> 
+</PolyStyle> 
+</Style> 
+<Placemark> 
+<name>77007</name> 
+<styleUrl>#77007Style</styleUrl> 
+<Polygon> 
+<outerBoundaryIs> 
+<LinearRing>
+<coordinates>-95.449949,29.78329,0
+-95.44994199999996,29.780889,0
+-95.444301,29.780806,0
+-95.44271100000003,29.780333,0
+-95.442544,29.782456,0
+-95.44629099999997,29.78352,0
+-95.44877300000002,29.783723,0
+-95.44993,29.783762,0
+-95.449949,29.78329,0
+-95.449949,29.78329,0</coordinates> 
+</LinearRing> 
+</outerBoundaryIs> 
+</Polygon> 
+</Placemark> 
+</kml>'''
+
+name='Portland'
+
+kmlopen = '''<?xml version="1.0" encoding="UTF-8"?> 
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Style id="''' + name + '''Style"> 
+<LineStyle> 
+<width>1</width> 
+</LineStyle> 
+<PolyStyle> 
+<color>8033CAC0</color> 
+</PolyStyle> 
+</Style> 
+<Placemark> 
+<name>''' + name + '''</name> 
+<styleUrl>#''' + name + '''Style</styleUrl> 
+<Polygon> 
+<outerBoundaryIs> 
+<LinearRing>
+<coordinates>'''
+
+kmlclose = '''</coordinates> 
+</LinearRing> 
+</outerBoundaryIs> 
+</Polygon> 
+</Placemark> 
+</kml>'''
